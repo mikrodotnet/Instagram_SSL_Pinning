@@ -1,11 +1,6 @@
 # Instagram SSL Pinning
 Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **177.0.0.30.119** 
 
-**Do you like this project? Support it by donating**
-
-- ![Paypal](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/paypal.png) Paypal: [Donate](https://www.paypal.com/donate?hosted_button_id=CR7EJC69TZ8AQ) or [paypal.me/mikrodotnet](https://paypal.me/mikrodotnet)
-- ![btc](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/bitcoin.png) Bitcoin: 1KskrTaaVtvreRSfqTpmmtrASmR7WALnn
-
 ## Requirements
 
 * The latest version of JDK ([Download](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html))
@@ -26,7 +21,7 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **177.0.0.30.119
 
 ### Instructions
 
-1. Download and install patched APK ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/non-root/x86))  
+1. Download and install patched APK ([ARM](https://github.com/mikrodotnet/Instagram_SSL_Pinning/tree/master/non-root/arm) - [x86](https://github.com/mikrodotnet/Instagram_SSL_Pinning/tree/master/non-root/x86))  
     ***ARM on a physical device or ARM on Genymotion Android 8-Oreo with [ARM Translation](https://mega.nz/#F!JhcFwKpC!yfhfeUzvIZoSdBgfdZ9Ygg) strongly recommended!***
 
     1.2. **For x86 only,** Open Instagram app (wait a few seconds) and close it.  
@@ -49,7 +44,7 @@ Bypass Instagram SSL Pinning on Android (`ARM and x86`) Version **177.0.0.30.119
 2. Open Instagram app (wait a few seconds) and close it.  
   ***It's important to run Instagram app once, before start patching!***  
   
-3. Download the patched file ([ARM](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/arm) - [x86](https://github.com/itsMoji/Instagram_SSL_Pinning/tree/master/x86)) and push it to the device:  
+3. Download the patched file ([ARM](https://github.com/mikrodotnet/Instagram_SSL_Pinning/tree/master/arm) - [x86](https://github.com/mikrodotnet/Instagram_SSL_Pinning/tree/master/x86)) and push it to the device:  
   ARM: `adb push libliger.so /data/data/com.instagram.android/lib-superpack-br/libliger.so`  
   x86: `adb push libliger.so /data/data/com.instagram.android/lib-zstd/libliger.so`  
   
